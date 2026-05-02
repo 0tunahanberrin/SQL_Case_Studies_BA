@@ -1,5 +1,5 @@
 --display no of duplicated rows from employees table--
-/*SELECT
+SELECT
     employeeID,
     first_name,
 	last_name,
@@ -13,7 +13,7 @@ GROUP BY
 	last_name,
 	departmentID
 HAVING
-    COUNT(*) > 1;*/
+    COUNT(*) > 1;
 
 
 --Write a query to remove the duplicate records from the table (PostgreSQL specific).--
